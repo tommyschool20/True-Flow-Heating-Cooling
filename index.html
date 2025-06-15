@@ -11,7 +11,7 @@
 
   <header class="header">
     <div class="container">
-      <h1 class="logo">TrueFlow</h1>
+    <img src="trueflow logo.jpg" alt="TrueFlow Logo" style="height: 60px;" />
       <nav>
         <ul class="nav-links">
           <li><a href="#">Home</a></li>
@@ -74,11 +74,43 @@
       <a href="#" class="btn-primary">Call Now: (555) 123-4567</a>
     </div>
   </section>
+  
+  <section class="schedule-service">
+    <div class="container">
+      <h3>Schedule a Service</h3>
+      <form action="mailto:tommytang15@gmail.com" method="POST" enctype="text/plain">
+        <label for="service">Service Type:</label>
+        <select name="service" id="service" required>
+          <option value="">--Please choose an option--</option>
+          <option value="Repair">Repair</option>
+          <option value="Install">Install</option>
+          <option value="Other">Other</option>
+        </select>
+
+        <label for="name">Full Name:</label>
+        <input type="text" name="name" id="name" required />
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" name="phone" id="phone" required />
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required />
+
+        <label for="address">Address:</label>
+        <input type="text" name="address" id="address" />
+
+        <label for="note">Additional Notes:</label>
+        <textarea name="note" id="note" rows="4"></textarea>
+
+        <button type="submit" class="btn-primary">Send Request</button>
+      </form>
+    </div>
+  </section>
 
   <footer class="footer">
     <div class="container">
       <p>© 2025 TrueFlow Heating & Cooling | Licensed & Insured</p>
-      <p>Email: service@trueflowhvac.com | Phone: (555) 123-4567</p>
+      <p>Email: tommytang15@gmail.com | Phone: (314) 520-2988</p>
     </div>
   </footer>
 
